@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Antonella">
+  <meta name="description" content="In My Mind is Antonella's initiative using art and animation to explore different perspectives.">
+  <title>In My Mind</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#tool" data-i18n="skip">Skip to the tool</a>
+  <header>
+    <nav class="wrap" aria-label="Main navigation">
+      <a class="brand" href="#home"><span aria-hidden="true">✦</span> In My Mind</a>
+      <div class="nav-links">
+        <a href="#about" data-i18n="navAbout">About me</a>
+        <a href="#story" data-i18n="navStory">How it began</a>
+        <a href="#cast" data-i18n="navCast">Original characters</a>
+        <a href="#tool" data-i18n="navTool">Step inside</a>
+      </div>
+      <div class="language" aria-label="Language selector">
+        <button type="button" data-lang="en" aria-pressed="true">🇨🇦 English</button>
+        <button type="button" data-lang="es" aria-pressed="false">🇵🇪 Español</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="heroEyebrow">Hi, I’m Antonella, and this is my initiative.</p>
+        <h1 data-i18n="heroTitle">Welcome to In My Mind.</h1>
+        <p class="lead" data-i18n="heroLead">In My Mind is an initiative that uses art and animation to invite people to see the world from different perspectives, one character and one story at a time.</p>
+        <a class="cta" href="#about" data-i18n="heroCta">Get to know me ↓</a>
+      </div>
+      <figure class="hero-portrait">
+        <img src="assets/antonella-character-v1.png" alt="Antonella’s original winged character with a starry purple cap">
+        <figcaption data-i18n="heroCaption">A character I created for my animation</figcaption>
+      </figure>
+    </section>
+
+    <section class="about wrap" id="about">
+      <div><p class="eyebrow" data-i18n="aboutEyebrow">About me</p><h2 data-i18n="aboutTitle">Hi, I’m Antonella.</h2><p data-i18n="aboutCopy1">I’m from Peru, and I’m in the second year of the IB Diploma Programme. I’m especially interested in neuroscience and in how people experience the world differently.</p><p data-i18n="aboutCopy2">I was diagnosed as autistic almost three years ago. Art has helped me ask questions, share ideas, and connect with people. I hope In My Mind can open that door for others too.</p></div>
+      <aside><p class="tiny-label" data-i18n="aboutCardTitle">Why I started</p><p data-i18n="aboutCardCopy">I wanted to use something I love, drawing and animation, to make conversations about autism more thoughtful and accessible.</p></aside>
+    </section>
+
+    <section class="start" id="story">
+      <div class="wrap start-grid">
+        <div>
+          <p class="eyebrow" data-i18n="startEyebrow">How it began</p>
+          <h2 data-i18n="startTitle">It began with a project at school.</h2>
+          <p data-i18n="startCopy1">Two years ago, I was asked to create a project on a topic of my choice. I kept coming back to neuroscience, especially autism. I wanted to understand more and share what I learned in a way people would want to watch.</p>
+          <p data-i18n="startCopy2">I researched, wrote a script, drew characters and storyboards, then made my first animation. It was the first time I animated a project like this myself. Each drawing helped me find a clearer way to tell the story.</p>
+          <p class="process-note" data-i18n="startNote">That animation was the beginning. Now I want to create more stories and give other people ways to express their own experiences through art.</p>
+        </div>
+        <div class="video-wrap">
+          <iframe src="https://www.youtube-nocookie.com/embed/4njNbM_P8ZM" title="My original autism awareness animation" loading="lazy" allowfullscreen></iframe>
+          <a href="https://www.youtube.com/watch?v=4njNbM_P8ZM" target="_blank" rel="noreferrer" data-i18n="watchVideo">Watch the original animation on YouTube ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="archive wrap" aria-labelledby="archive-title">
+      <p class="eyebrow" data-i18n="archiveEyebrow">The first sketches</p>
+      <h2 id="archive-title" data-i18n="archiveTitle">Here is how I brought the idea to life.</h2>
+      <p class="section-intro" data-i18n="archiveLead">These pages show how I planned the story, built the characters, and learned to animate them.</p>
+      <div class="archive-grid">
+        <figure><img src="assets/original-storyboard.png" alt="Original storyboard drawn on graph paper"><figcaption><strong data-i18n="arc1Title">Storyboarding</strong><span data-i18n="arc1Copy">Ideas first became scenes, emotions, and a narrative.</span></figcaption></figure>
+        <figure><img src="assets/original-script.png" alt="Original writing and dialogue script"><figcaption><strong data-i18n="arc2Title">Writing the story</strong><span data-i18n="arc2Copy">Characters and dialogue made the message personal and understandable.</span></figcaption></figure>
+        <figure><img src="assets/original-production.png" alt="Original animation production screen"><figcaption><strong data-i18n="arc3Title">Animating by hand</strong><span data-i18n="arc3Copy">The drawings, backgrounds, voice, and timing were assembled into the video.</span></figcaption></figure>
+        <figure><img src="assets/original-diary.png" alt="Original project diary and Pomodoro planning page"><figcaption><strong data-i18n="arc4Title">Learning and reflection</strong><span data-i18n="arc4Copy">Research, feedback, and planning shaped every version of the project.</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="cast-section" id="cast">
+      <div class="wrap cast-grid">
+        <div>
+          <p class="eyebrow" data-i18n="castEyebrow">Meet the original cast</p>
+          <h2 data-i18n="castTitle">Meet the characters I created.</h2>
+          <p data-i18n="castCopy">I drew Emma, Facundo, Alaska, Giropp, and Cechu for my original animation. Through them, I could tell a story with more feeling than facts alone.</p>
+          <p class="cast-small" data-i18n="castNote">Facundo’s social battery is one moment in that story. I hope to give these characters more stories as In My Mind grows.</p>
+        </div>
+        <figure class="cast-image"><img src="assets/original-cast.png" alt="My original characters: Emma, Facundo, Alaska, Giropp and Cechu"><figcaption data-i18n="castCaption">My original character lineup</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="tool-section wrap" id="tool">
+      <div class="tool-intro"><p class="eyebrow" data-i18n="toolEyebrow">Step inside a moment</p><h2 data-i18n="toolTitle">See a moment through a character’s eyes.</h2><p data-i18n="toolLead">I made these scenes to start a conversation. Each shows one possible experience. You can explore what the character might need.</p></div>
+      <div class="perspective-shell">
+        <div class="scene-picks" role="group" aria-label="Choose an original scene">
+          <button type="button" data-scene="battery" aria-pressed="true"><span>01</span><b data-i18n="sceneBattery">Facundo’s social battery</b></button>
+          <button type="button" data-scene="instructions" aria-pressed="false"><span>02</span><b data-i18n="sceneInstructions">Many instructions at once</b></button>
+          <button type="button" data-scene="ambiguity" aria-pressed="false"><span>03</span><b data-i18n="sceneAmbiguity">When the meaning is unclear</b></button>
+        </div>
+        <div class="perspective-content"><p class="perspective-kicker" data-i18n="perspectiveKicker">One possible perspective</p><h3 id="scene-title"></h3><p id="scene-copy"></p><div class="support"><strong data-i18n="supportTitle">What can help</strong><p id="scene-support"></p></div></div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="wrap"><span>In My Mind</span> · <span data-i18n="footer">Created by Antonella with her original art and research. I built this website with help from Codex.</span></footer>
+</body>
+</html>
